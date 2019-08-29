@@ -27,13 +27,13 @@
       
 
       .list{
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
         padding-bottom: 1rem;
         text-decoration: none;
         color: black;
 
         &:hover{
-          background-color: yellow;
+          border-bottom: double 6px orange;
           color: #A9A9A9;
         }
       }
@@ -43,6 +43,7 @@
         color: #A9A9A9;
         border-radius: 15%;
         padding: 0.8rem;
+        border-bottom: none;
       }
     }
   }
