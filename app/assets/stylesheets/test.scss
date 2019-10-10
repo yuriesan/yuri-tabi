@@ -10,10 +10,11 @@
   .header{
     height: 15%;
     width: 100%;
-    background-color:white;
+    background-color:#FFD700;
     display: flex;
     justify-content: space-between;
     font-family: 'Impact','Copperplate',sans-serif;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 
     &__title{
       padding: 1.2rem;
@@ -39,9 +40,11 @@
       }
       .list:last-child{
         margin: 0 3rem 0.5rem 0rem;
-        background-color: red;
+        background-color:#FF6347;
         color: #A9A9A9;
+        
         border-radius: 15%;
+        transition: .3s;
         padding: 0.8rem;
         border-bottom: none;
       }
@@ -51,6 +54,6 @@
   #map-container{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 }
